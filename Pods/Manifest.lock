@@ -10,6 +10,7 @@ PODS:
   - ReactiveCocoa/Core (2.3):
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/no-arc (2.3)
+  - REFrostedViewController (2.4.5)
   - TSMessages (0.9.7):
     - HexColors
 
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - LBBlurredImage
   - Mantle
   - ReactiveCocoa
+  - REFrostedViewController (~> 2.4.5)
   - TSMessages
 
 SPEC CHECKSUMS:
@@ -24,6 +26,7 @@ SPEC CHECKSUMS:
   LBBlurredImage: 26bacd10063a6e886de6a374f4727c3cefb22fc2
   Mantle: 0714cdb2b8559d9e6c2410d6a8529e3307bff189
   ReactiveCocoa: 1f6265f9d521923d3efcc37b00722cefc16df269
+  REFrostedViewController: ab017bbd8d8ab3b23615ef308707711d8576999b
   TSMessages: 9dd053bcf1a8985275177ebe0fb8c0f1416e92f7
 
 COCOAPODS: 0.32.1

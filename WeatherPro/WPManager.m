@@ -53,7 +53,7 @@
            }] deliverOn:RACScheduler.mainThreadScheduler]  //将信号传递给主线程上的观察者
          //错误显示
          subscribeError:^(NSError *error) {
-             [TSMessage showNotificationWithTitle:@"Error" subtitle:@"There was a problem fetching the lastest weather." type:TSMessageNotificationTypeError];
+             [TSMessage showNotificationWithTitle:@"错误" subtitle:@"无法获取最新天气!" type:TSMessageNotificationTypeError];
          }];
 
     
@@ -87,7 +87,7 @@
 - (RACSignal *)updateCurrentConditions {
     return [[self.client fetchCurrentConditionsForLocation:self.currentLocation.coordinate] doNext:^(WPCondition *condition) {
         self.currentCondition = condition;
-        NSLog(@"%@",self.currentCondition);
+        //NSLog(@"%@",self.currentCondition);
     }];
 }
 

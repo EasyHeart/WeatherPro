@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <REFrostedViewController.h>
 
-@interface WPAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WPAppDelegate : UIResponder <UIApplicationDelegate,REFrostedViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

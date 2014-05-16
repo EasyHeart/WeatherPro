@@ -9,6 +9,7 @@
 #import "WPViewController.h"
 #import <LBBlurredImage/UIImageView+LBBlurredImage.h>
 #import "WPManager.h"
+#import "WPNavigationController.h"
 
 @interface WPViewController ()
 
@@ -37,6 +38,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.screenHeight = [UIScreen mainScreen].bounds.size.height;
+    self.title = @"今日天气";
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"目录"
+                                                                             style:UIBarButtonItemStylePlain
+                                                                            target:(WPNavigationController *)self.navigationController
+                                                                            action:@selector(showMenu)];
     
     UIImage *background = [UIImage imageNamed:@"bg"];
     self.backgroundImageView = [[UIImageView alloc]initWithImage:background];
@@ -94,11 +100,11 @@
     hiloLabel.font =[UIFont fontWithName:@"HelveticaNeue-Light" size:28];
     [header addSubview:hiloLabel];
     
-    UILabel *cityLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 20, self.view.bounds.size.width, 30) ];
+    UILabel *cityLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 68 , 280, 64) ];
     cityLabel.backgroundColor = [UIColor clearColor];
     cityLabel.textColor = [UIColor whiteColor];
     cityLabel.text = @"Loading...";
-    cityLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:18];
+    cityLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:30];
     cityLabel.textAlignment = NSTextAlignmentCenter;
     [header addSubview:cityLabel];
     
@@ -238,7 +244,7 @@
     //TODO: setup the cell
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
-            [self configureHeaderCell:cell title:@"Hourly Forecast"];
+            [self configureHeaderCell:cell title:@"每小时预报"];
         } else {
             WPCondition *weather = [WPManager sharedManager].hourlyForecast[indexPath.row - 1];
             [self configureHourlyCell:cell weather:weather];
@@ -246,7 +252,7 @@
     }
     else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
-            [self configureHeaderCell:cell title:@"Daily Forecast"];
+            [self configureHeaderCell:cell title:@"每日预报"];
         } else {
             WPCondition *weather = [WPManager sharedManager].dailyForecast[indexPath.row -1];
             [self configureDailyCell:cell weather:weather];

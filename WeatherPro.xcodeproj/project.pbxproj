@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42160D43191E51F800DA5D44 /* WPItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42160D41191E51F800DA5D44 /* WPItemDetailViewController.m */; };
+		42160D44191E51F800DA5D44 /* WPItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42160D42191E51F800DA5D44 /* WPItemDetailViewController.xib */; };
 		4241B1F419108B0A00108C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4241B1F319108B0A00108C39 /* Foundation.framework */; };
 		4241B1F619108B0A00108C39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4241B1F519108B0A00108C39 /* CoreGraphics.framework */; };
 		4241B1F819108B0A00108C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4241B1F719108B0A00108C39 /* UIKit.framework */; };
@@ -19,6 +21,8 @@
 		4241B20F19108B0A00108C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4241B1F719108B0A00108C39 /* UIKit.framework */; };
 		4241B21719108B0A00108C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4241B21519108B0A00108C39 /* InfoPlist.strings */; };
 		4241B21919108B0A00108C39 /* WeatherProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241B21819108B0A00108C39 /* WeatherProTests.m */; };
+		426BF71D191DC87B00DB8DFC /* WPCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426BF71B191DC87B00DB8DFC /* WPCheckListViewController.m */; };
+		426BF720191DC92D00DB8DFC /* WPCheckListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426BF71F191DC92D00DB8DFC /* WPCheckListCell.xib */; };
 		427C92E81910DB1B006D3545 /* WPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427C92E71910DB1B006D3545 /* WPViewController.m */; };
 		427C93051910DF0E006D3545 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 427C92EA1910DF0E006D3545 /* bg.png */; };
 		427C93061910DF0E006D3545 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 427C92EB1910DF0E006D3545 /* bg@2x.png */; };
@@ -46,11 +50,29 @@
 		427C931C1910DF0E006D3545 /* weather-snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 427C93021910DF0E006D3545 /* weather-snow@2x.png */; };
 		427C931D1910DF0E006D3545 /* weather-tstorm.png in Resources */ = {isa = PBXBuildFile; fileRef = 427C93031910DF0E006D3545 /* weather-tstorm.png */; };
 		427C931E1910DF0E006D3545 /* weather-tstorm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 427C93041910DF0E006D3545 /* weather-tstorm@2x.png */; };
+		427CDB831920D03100D75F1D /* WPAllListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427CDB821920D03100D75F1D /* WPAllListsViewController.m */; };
 		4290A316191772B200801586 /* WPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290A315191772B200801586 /* WPClient.m */; };
 		4290A319191772C500801586 /* WPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290A318191772C500801586 /* WPManager.m */; };
 		4290A31C191772E300801586 /* WPCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290A31B191772E300801586 /* WPCondition.m */; };
 		4290A31F1917734200801586 /* WPDaliyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290A31E1917734200801586 /* WPDaliyForecast.m */; };
+		4295FC19191CD17C009F7A55 /* WPPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4295FC16191CD17C009F7A55 /* WPPlace.m */; };
+		4295FC1A191CD17C009F7A55 /* WPMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4295FC18191CD17C009F7A55 /* WPMapViewController.m */; };
+		429F78871920D78300612246 /* WPCheckList.m in Sources */ = {isa = PBXBuildFile; fileRef = 429F78861920D78300612246 /* WPCheckList.m */; };
+		429F788A1920EDBF00612246 /* WPListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429F78891920EDBF00612246 /* WPListDetailViewController.m */; };
+		429F788C1920F36100612246 /* WPListDetailTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 429F788B1920F36100612246 /* WPListDetailTextCell.xib */; };
+		42A7D0DC191DDE6D00445518 /* WPCheckListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A7D0DB191DDE6D00445518 /* WPCheckListItem.m */; };
+		42A7D108191C6A000028C427 /* WPMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A7D107191C6A000028C427 /* WPMenuViewController.m */; };
+		42A7D10A191C6BB40028C427 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A7D109191C6BB40028C427 /* star.jpg */; };
+		42A7D10D191C747E0028C427 /* WPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A7D10C191C747E0028C427 /* WPNavigationController.m */; };
+		42AE2EA71921BDEB005907AD /* WPListDetailImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AE2EA61921BDEB005907AD /* WPListDetailImageCell.xib */; };
+		42BA9868191C80C9008E23B1 /* WPMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42BA9867191C80C9008E23B1 /* WPMapViewController.xib */; };
+		42BA986A191CC5BF008E23B1 /* MenuBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA9869191CC5BF008E23B1 /* MenuBackground@2x.png */; };
+		42BA986C191CC7C8008E23B1 /* IconSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA986B191CC7C8008E23B1 /* IconSettings@2x.png */; };
 		42F55608191A2B50005DD880 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F55607191A2B50005DD880 /* CoreLocation.framework */; };
+		42F9D2A2192240A300315A40 /* WPAllListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9D2A1192240A300315A40 /* WPAllListDataModel.m */; };
+		42F9D2A5192243B600315A40 /* WPIconPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9D2A4192243B600315A40 /* WPIconPickerViewController.m */; };
+		42F9F7B2191E423500855E09 /* WPStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9F7B0191E423500855E09 /* WPStartViewController.m */; };
+		42F9F7B3191E423500855E09 /* WPStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F9F7B1191E423500855E09 /* WPStartViewController.xib */; };
 		E68B1C4D327248C789BD4C25 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D99EFEF82C4DF7A6959191 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +87,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42160D40191E51F800DA5D44 /* WPItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPItemDetailViewController.h; sourceTree = "<group>"; };
+		42160D41191E51F800DA5D44 /* WPItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPItemDetailViewController.m; sourceTree = "<group>"; };
+		42160D42191E51F800DA5D44 /* WPItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPItemDetailViewController.xib; sourceTree = "<group>"; };
 		4241B1F019108B0A00108C39 /* WeatherPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4241B1F319108B0A00108C39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4241B1F519108B0A00108C39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +106,9 @@
 		4241B21419108B0A00108C39 /* WeatherProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherProTests-Info.plist"; sourceTree = "<group>"; };
 		4241B21619108B0A00108C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4241B21819108B0A00108C39 /* WeatherProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherProTests.m; sourceTree = "<group>"; };
+		426BF71A191DC87B00DB8DFC /* WPCheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCheckListViewController.h; sourceTree = "<group>"; };
+		426BF71B191DC87B00DB8DFC /* WPCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCheckListViewController.m; sourceTree = "<group>"; };
+		426BF71F191DC92D00DB8DFC /* WPCheckListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPCheckListCell.xib; sourceTree = "<group>"; };
 		427C92E61910DB1B006D3545 /* WPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPViewController.h; sourceTree = "<group>"; };
 		427C92E71910DB1B006D3545 /* WPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPViewController.m; sourceTree = "<group>"; };
 		427C92EA1910DF0E006D3545 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
@@ -109,6 +137,8 @@
 		427C93021910DF0E006D3545 /* weather-snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather-snow@2x.png"; sourceTree = "<group>"; };
 		427C93031910DF0E006D3545 /* weather-tstorm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather-tstorm.png"; sourceTree = "<group>"; };
 		427C93041910DF0E006D3545 /* weather-tstorm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather-tstorm@2x.png"; sourceTree = "<group>"; };
+		427CDB811920D03100D75F1D /* WPAllListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAllListsViewController.h; sourceTree = "<group>"; };
+		427CDB821920D03100D75F1D /* WPAllListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAllListsViewController.m; sourceTree = "<group>"; };
 		4290A314191772B200801586 /* WPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPClient.h; sourceTree = "<group>"; };
 		4290A315191772B200801586 /* WPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPClient.m; sourceTree = "<group>"; };
 		4290A317191772C500801586 /* WPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPManager.h; sourceTree = "<group>"; };
@@ -117,7 +147,34 @@
 		4290A31B191772E300801586 /* WPCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCondition.m; sourceTree = "<group>"; };
 		4290A31D1917734200801586 /* WPDaliyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPDaliyForecast.h; sourceTree = "<group>"; };
 		4290A31E1917734200801586 /* WPDaliyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPDaliyForecast.m; sourceTree = "<group>"; };
+		4295FC15191CD17C009F7A55 /* WPPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPlace.h; sourceTree = "<group>"; };
+		4295FC16191CD17C009F7A55 /* WPPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPlace.m; sourceTree = "<group>"; };
+		4295FC17191CD17C009F7A55 /* WPMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPMapViewController.h; sourceTree = "<group>"; };
+		4295FC18191CD17C009F7A55 /* WPMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPMapViewController.m; sourceTree = "<group>"; };
+		429F78851920D78300612246 /* WPCheckList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCheckList.h; sourceTree = "<group>"; };
+		429F78861920D78300612246 /* WPCheckList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCheckList.m; sourceTree = "<group>"; };
+		429F78881920EDBF00612246 /* WPListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPListDetailViewController.h; sourceTree = "<group>"; };
+		429F78891920EDBF00612246 /* WPListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPListDetailViewController.m; sourceTree = "<group>"; };
+		429F788B1920F36100612246 /* WPListDetailTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPListDetailTextCell.xib; sourceTree = "<group>"; };
+		42A7D0DA191DDE6D00445518 /* WPCheckListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCheckListItem.h; sourceTree = "<group>"; };
+		42A7D0DB191DDE6D00445518 /* WPCheckListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCheckListItem.m; sourceTree = "<group>"; };
+		42A7D106191C6A000028C427 /* WPMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPMenuViewController.h; sourceTree = "<group>"; };
+		42A7D107191C6A000028C427 /* WPMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPMenuViewController.m; sourceTree = "<group>"; };
+		42A7D109191C6BB40028C427 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = star.jpg; path = ../../../../../Downloads/star.jpg; sourceTree = "<group>"; };
+		42A7D10B191C747E0028C427 /* WPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPNavigationController.h; sourceTree = "<group>"; };
+		42A7D10C191C747E0028C427 /* WPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPNavigationController.m; sourceTree = "<group>"; };
+		42AE2EA61921BDEB005907AD /* WPListDetailImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPListDetailImageCell.xib; sourceTree = "<group>"; };
+		42BA9867191C80C9008E23B1 /* WPMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPMapViewController.xib; sourceTree = "<group>"; };
+		42BA9869191CC5BF008E23B1 /* MenuBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MenuBackground@2x.png"; path = "../../../../../Pictures/MenuBackground@2x.png"; sourceTree = "<group>"; };
+		42BA986B191CC7C8008E23B1 /* IconSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IconSettings@2x.png"; path = "../../../../../Pictures/IconSettings@2x.png"; sourceTree = "<group>"; };
 		42F55607191A2B50005DD880 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		42F9D2A0192240A300315A40 /* WPAllListDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAllListDataModel.h; sourceTree = "<group>"; };
+		42F9D2A1192240A300315A40 /* WPAllListDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAllListDataModel.m; sourceTree = "<group>"; };
+		42F9D2A3192243B600315A40 /* WPIconPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPIconPickerViewController.h; sourceTree = "<group>"; };
+		42F9D2A4192243B600315A40 /* WPIconPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPIconPickerViewController.m; sourceTree = "<group>"; };
+		42F9F7AF191E423500855E09 /* WPStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPStartViewController.h; sourceTree = "<group>"; };
+		42F9F7B0191E423500855E09 /* WPStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPStartViewController.m; sourceTree = "<group>"; };
+		42F9F7B1191E423500855E09 /* WPStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPStartViewController.xib; sourceTree = "<group>"; };
 		58E42AA3B91A4BA5BA12B6F5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		65D99EFEF82C4DF7A6959191 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -186,17 +243,18 @@
 			children = (
 				4241B20219108B0A00108C39 /* WPAppDelegate.h */,
 				4241B20319108B0A00108C39 /* WPAppDelegate.m */,
-				427C92E61910DB1B006D3545 /* WPViewController.h */,
-				427C92E71910DB1B006D3545 /* WPViewController.m */,
-				4290A314191772B200801586 /* WPClient.h */,
-				4290A315191772B200801586 /* WPClient.m */,
-				4290A317191772C500801586 /* WPManager.h */,
-				4290A318191772C500801586 /* WPManager.m */,
-				4290A31A191772E300801586 /* WPCondition.h */,
-				4290A31B191772E300801586 /* WPCondition.m */,
-				4290A31D1917734200801586 /* WPDaliyForecast.h */,
-				4290A31E1917734200801586 /* WPDaliyForecast.m */,
+				42A7D10B191C747E0028C427 /* WPNavigationController.h */,
+				42A7D10C191C747E0028C427 /* WPNavigationController.m */,
+				42F9F7AF191E423500855E09 /* WPStartViewController.h */,
+				42F9F7B0191E423500855E09 /* WPStartViewController.m */,
+				42F9F7B1191E423500855E09 /* WPStartViewController.xib */,
+				42A7D106191C6A000028C427 /* WPMenuViewController.h */,
+				42A7D107191C6A000028C427 /* WPMenuViewController.m */,
+				42F9F7AB191E20F200855E09 /* Map */,
+				42F9F7A9191E20D700855E09 /* Weather */,
+				42F9F7AA191E20E900855E09 /* CheckList */,
 				4241B20519108B0A00108C39 /* Images.xcassets */,
+				42C749B9191C7F3F00166F65 /* Model */,
 				427C92E91910DF0E006D3545 /* Images */,
 				4241B1FA19108B0A00108C39 /* Supporting Files */,
 			);
@@ -235,6 +293,9 @@
 		427C92E91910DF0E006D3545 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				42BA986B191CC7C8008E23B1 /* IconSettings@2x.png */,
+				42BA9869191CC5BF008E23B1 /* MenuBackground@2x.png */,
+				42A7D109191C6BB40028C427 /* star.jpg */,
 				427C92EA1910DF0E006D3545 /* bg.png */,
 				427C92EB1910DF0E006D3545 /* bg@2x.png */,
 				427C92EC1910DF0E006D3545 /* Weather Icons */,
@@ -271,6 +332,69 @@
 				427C93041910DF0E006D3545 /* weather-tstorm@2x.png */,
 			);
 			path = "Weather Icons";
+			sourceTree = "<group>";
+		};
+		42C749B9191C7F3F00166F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		42F9F7A9191E20D700855E09 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				427C92E61910DB1B006D3545 /* WPViewController.h */,
+				427C92E71910DB1B006D3545 /* WPViewController.m */,
+				4290A314191772B200801586 /* WPClient.h */,
+				4290A315191772B200801586 /* WPClient.m */,
+				4290A317191772C500801586 /* WPManager.h */,
+				4290A318191772C500801586 /* WPManager.m */,
+				4290A31A191772E300801586 /* WPCondition.h */,
+				4290A31B191772E300801586 /* WPCondition.m */,
+				4290A31D1917734200801586 /* WPDaliyForecast.h */,
+				4290A31E1917734200801586 /* WPDaliyForecast.m */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		42F9F7AA191E20E900855E09 /* CheckList */ = {
+			isa = PBXGroup;
+			children = (
+				427CDB811920D03100D75F1D /* WPAllListsViewController.h */,
+				427CDB821920D03100D75F1D /* WPAllListsViewController.m */,
+				429F78881920EDBF00612246 /* WPListDetailViewController.h */,
+				429F78891920EDBF00612246 /* WPListDetailViewController.m */,
+				42F9D2A0192240A300315A40 /* WPAllListDataModel.h */,
+				42F9D2A1192240A300315A40 /* WPAllListDataModel.m */,
+				429F788B1920F36100612246 /* WPListDetailTextCell.xib */,
+				42AE2EA61921BDEB005907AD /* WPListDetailImageCell.xib */,
+				426BF71A191DC87B00DB8DFC /* WPCheckListViewController.h */,
+				426BF71B191DC87B00DB8DFC /* WPCheckListViewController.m */,
+				42160D40191E51F800DA5D44 /* WPItemDetailViewController.h */,
+				42160D41191E51F800DA5D44 /* WPItemDetailViewController.m */,
+				42160D42191E51F800DA5D44 /* WPItemDetailViewController.xib */,
+				426BF71F191DC92D00DB8DFC /* WPCheckListCell.xib */,
+				429F78851920D78300612246 /* WPCheckList.h */,
+				429F78861920D78300612246 /* WPCheckList.m */,
+				42A7D0DA191DDE6D00445518 /* WPCheckListItem.h */,
+				42A7D0DB191DDE6D00445518 /* WPCheckListItem.m */,
+				42F9D2A3192243B600315A40 /* WPIconPickerViewController.h */,
+				42F9D2A4192243B600315A40 /* WPIconPickerViewController.m */,
+			);
+			name = CheckList;
+			sourceTree = "<group>";
+		};
+		42F9F7AB191E20F200855E09 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				42BA9867191C80C9008E23B1 /* WPMapViewController.xib */,
+				4295FC17191CD17C009F7A55 /* WPMapViewController.h */,
+				4295FC18191CD17C009F7A55 /* WPMapViewController.m */,
+				4295FC15191CD17C009F7A55 /* WPPlace.h */,
+				4295FC16191CD17C009F7A55 /* WPPlace.m */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,26 +478,35 @@
 				427C931E1910DF0E006D3545 /* weather-tstorm@2x.png in Resources */,
 				427C93071910DF0E006D3545 /* weather-broken.png in Resources */,
 				427C930B1910DF0E006D3545 /* weather-few-night.png in Resources */,
+				429F788C1920F36100612246 /* WPListDetailTextCell.xib in Resources */,
 				427C93091910DF0E006D3545 /* weather-clear.png in Resources */,
+				42AE2EA71921BDEB005907AD /* WPListDetailImageCell.xib in Resources */,
 				427C93181910DF0E006D3545 /* weather-scattered@2x.png in Resources */,
+				42A7D10A191C6BB40028C427 /* star.jpg in Resources */,
 				427C93161910DF0E006D3545 /* weather-rain@2x.png in Resources */,
 				427C930C1910DF0E006D3545 /* weather-few-night@2x.png in Resources */,
 				427C930F1910DF0E006D3545 /* weather-mist.png in Resources */,
 				427C931B1910DF0E006D3545 /* weather-snow.png in Resources */,
+				42BA986C191CC7C8008E23B1 /* IconSettings@2x.png in Resources */,
+				42BA986A191CC5BF008E23B1 /* MenuBackground@2x.png in Resources */,
 				427C93151910DF0E006D3545 /* weather-rain.png in Resources */,
 				427C93131910DF0E006D3545 /* weather-rain-night.png in Resources */,
 				4241B1FE19108B0A00108C39 /* InfoPlist.strings in Resources */,
 				427C93121910DF0E006D3545 /* weather-moon@2x.png in Resources */,
 				427C93101910DF0E006D3545 /* weather-mist@2x.png in Resources */,
 				427C931D1910DF0E006D3545 /* weather-tstorm.png in Resources */,
+				42BA9868191C80C9008E23B1 /* WPMapViewController.xib in Resources */,
 				427C93191910DF0E006D3545 /* weather-shower.png in Resources */,
+				426BF720191DC92D00DB8DFC /* WPCheckListCell.xib in Resources */,
 				427C93111910DF0E006D3545 /* weather-moon.png in Resources */,
 				427C93141910DF0E006D3545 /* weather-rain-night@2x.png in Resources */,
 				427C931C1910DF0E006D3545 /* weather-snow@2x.png in Resources */,
 				427C931A1910DF0E006D3545 /* weather-shower@2x.png in Resources */,
+				42160D44191E51F800DA5D44 /* WPItemDetailViewController.xib in Resources */,
 				427C930D1910DF0E006D3545 /* weather-few.png in Resources */,
 				427C930E1910DF0E006D3545 /* weather-few@2x.png in Resources */,
 				427C93081910DF0E006D3545 /* weather-broken@2x.png in Resources */,
+				42F9F7B3191E423500855E09 /* WPStartViewController.xib in Resources */,
 				4241B20619108B0A00108C39 /* Images.xcassets in Resources */,
 				427C93171910DF0E006D3545 /* weather-scattered.png in Resources */,
 				427C930A1910DF0E006D3545 /* weather-clear@2x.png in Resources */,
@@ -431,11 +564,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				4241B20019108B0A00108C39 /* main.m in Sources */,
+				42A7D0DC191DDE6D00445518 /* WPCheckListItem.m in Sources */,
+				42F9D2A2192240A300315A40 /* WPAllListDataModel.m in Sources */,
+				429F788A1920EDBF00612246 /* WPListDetailViewController.m in Sources */,
+				42F9F7B2191E423500855E09 /* WPStartViewController.m in Sources */,
+				427CDB831920D03100D75F1D /* WPAllListsViewController.m in Sources */,
+				429F78871920D78300612246 /* WPCheckList.m in Sources */,
+				42A7D10D191C747E0028C427 /* WPNavigationController.m in Sources */,
 				4290A319191772C500801586 /* WPManager.m in Sources */,
+				4295FC19191CD17C009F7A55 /* WPPlace.m in Sources */,
 				4241B20419108B0A00108C39 /* WPAppDelegate.m in Sources */,
+				42F9D2A5192243B600315A40 /* WPIconPickerViewController.m in Sources */,
 				427C92E81910DB1B006D3545 /* WPViewController.m in Sources */,
+				426BF71D191DC87B00DB8DFC /* WPCheckListViewController.m in Sources */,
+				42A7D108191C6A000028C427 /* WPMenuViewController.m in Sources */,
+				4295FC1A191CD17C009F7A55 /* WPMapViewController.m in Sources */,
 				4290A31C191772E300801586 /* WPCondition.m in Sources */,
 				4290A31F1917734200801586 /* WPDaliyForecast.m in Sources */,
+				42160D43191E51F800DA5D44 /* WPItemDetailViewController.m in Sources */,
 				4290A316191772B200801586 /* WPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
