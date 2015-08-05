@@ -11,3 +11,6 @@ a simple weather demo
 2.  我的地图部分：用来展示地图上的手机当前位置；
 3.  我的笔记部分：用来设置提醒事件，记录用户需要提醒的事情。
 
+![Alt text](https://github.com/EasyHeart/WeatherPro/blob/WeatherPro-based/WeatherPro/Images/remoteImage.png)
+
+
