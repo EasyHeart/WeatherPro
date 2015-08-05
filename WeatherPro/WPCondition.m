@@ -112,5 +112,23 @@
         return @(speed.floatValue/MPS_TO_MPH);
     }];
 }
+/*
++ (NSValueTransformer *)temperatureJSONTransformer
+{
+    return [MTLValueTransformer reversibleTransformerWithForwardBlock:^(NSNumber *num) {
+        return @((num.floatValue-32)*5/9);
+    }reverseBlock:^(NSNumber *temp){
+        return @((9/5*temp.floatValue)+32);
+    }];
+}
 
+ + (NSValueTransformer *)tempHighJSONTransformer
+{
+    return [self temperatureJSONTransformer];
+}
+
++ (NSValueTransformer *)tempLowJSONTransformer
+{
+    return [self temperatureJSONTransformer];
+} */
 @end

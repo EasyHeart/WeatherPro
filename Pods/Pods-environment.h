@@ -30,6 +30,12 @@
 #define COCOAPODS_VERSION_MINOR_Mantle_extobjc 4
 #define COCOAPODS_VERSION_PATCH_Mantle_extobjc 1
 
+// REFrostedViewController
+#define COCOAPODS_POD_AVAILABLE_REFrostedViewController
+#define COCOAPODS_VERSION_MAJOR_REFrostedViewController 2
+#define COCOAPODS_VERSION_MINOR_REFrostedViewController 4
+#define COCOAPODS_VERSION_PATCH_REFrostedViewController 5
+
 // ReactiveCocoa
 #define COCOAPODS_POD_AVAILABLE_ReactiveCocoa
 #define COCOAPODS_VERSION_MAJOR_ReactiveCocoa 2

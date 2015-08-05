@@ -7,8 +7,10 @@
 //
 
 #import "WPAppDelegate.h"
-#import "WPViewController.h"
+#import "WPStartViewController.h"
 #import <TSMessage.h>
+#import "WPMenuViewController.h"
+#import "WPNavigationController.h"
 
 @implementation WPAppDelegate
 
@@ -16,11 +18,27 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.rootViewController = [[WPViewController alloc]init];
+    // Create content and menu controllers
+    //
+    WPNavigationController *navigationController = [[WPNavigationController alloc] initWithRootViewController:[[WPStartViewController alloc] init]];
+    WPMenuViewController *menuController = [[WPMenuViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    
+    // Create frosted view controller
+    //
+    REFrostedViewController *frostedViewController = [[REFrostedViewController alloc] initWithContentViewController:navigationController menuViewController:menuController];
+    frostedViewController.direction = REFrostedViewControllerDirectionLeft;
+    frostedViewController.liveBlurBackgroundStyle = REFrostedViewControllerLiveBackgroundStyleLight;
+    frostedViewController.liveBlur = YES;
+    frostedViewController.delegate = self;
+    //frostedViewController.panGestureEnabled = NO;
+    //frostedViewController.menuViewSize = CGSizeMake(220, self.window.frame.size.height);
+    
+    // Make it a root controller
+    //
+    self.window.rootViewController = frostedViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    [TSMessage setDefaultViewController:self.window.rootViewController];
     return YES;
 }
 
