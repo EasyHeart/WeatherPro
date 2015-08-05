@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "51A66F058CB413077A9BBD1DA8C390D48196FB8A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "51A66F058CB413077A9BBD1DA8C390D48196FB8A" : 0,
+    "D5CD5301-A056-4ED4-8721-40725E8B480A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9AB68E78-709D-4B46-BA56-BF93EFCDC55A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "51A66F058CB413077A9BBD1DA8C390D48196FB8A" : "WeatherPro%202\/",
+    "D5CD5301-A056-4ED4-8721-40725E8B480A" : "WeatherPro"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WeatherPro",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WeatherPro.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EasyHeart\/WeatherPro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51A66F058CB413077A9BBD1DA8C390D48196FB8A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EasyHeart\/WeatherPro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D5CD5301-A056-4ED4-8721-40725E8B480A"
+    }
+  ]
+}

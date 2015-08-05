@@ -44,7 +44,7 @@
                                                                             target:(WPNavigationController *)self.navigationController
                                                                             action:@selector(showMenu)];
     
-    UIImage *background = [UIImage imageNamed:@"bg"];
+    UIImage *background = [UIImage imageNamed:@"城市640×960"];
     self.backgroundImageView = [[UIImageView alloc]initWithImage:background];
     self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
     [self.view addSubview:self.backgroundImageView];
